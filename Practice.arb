@@ -1,0 +1,44 @@
+# 画面出力
+puts "Hello Ruby World"
+
+# 変数
+name = "高橋"
+puts name
+
+# 配列
+names = ["高橋","佐藤","鈴木"]
+puts names
+puts names[0]
+
+# 変数展開
+# ダブルクォーテーション("")のみ利用可能
+# #{変数名}で利用できる
+age = 28
+puts "私の名前は#{names[0]}で,年齢は#{age}歳です"
+
+
+# 計算
+puts 1 + 1
+number = 1
+number += 1
+number -= 1
+number /= 1
+number %= 1
+puts number
+
+# 条件分岐1
+score = 80
+if score == 80
+    puts "80点!"
+elsif score >= 70
+    puts "合格点"
+else 
+    puts "残念、不合格"
+end
+
+# 条件分岐2
+num = 80
+if num % 2 == 0 && num > 2
+    puts "2の倍数で2より大きいね"
+end
+
